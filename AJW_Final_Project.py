@@ -13,12 +13,10 @@ import random as rd
 from PIL import Image
 import plotly.express as px
 
-path = "D:/CS 230/Final Project/"
-
 pd.set_option("display.max_rows", None, "display.max_columns", None, 'display.width', None, 'max_colwidth', None)
 
-df_crime = pd.read_csv(path + "BostonCrime2021_7000_sample.csv")
-df_districts = pd.read_csv(path + "BostonPoliceDistricts.csv")
+df_crime = pd.read_csv("BostonCrime2021_7000_sample.csv")
+df_districts = pd.read_csv("BostonPoliceDistricts.csv")
 
 
 # Function if region names needed
