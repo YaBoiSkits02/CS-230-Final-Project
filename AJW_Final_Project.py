@@ -29,7 +29,7 @@ def regions_tuple():
 
 
 # User interface for web application
-logo = Image.open("Final Project/Boston Police Logo.jpg")
+logo = Image.open("Boston Police Logo.jpg")
 st.image(logo, width=200)
 
 st.title("2021 Boston Crime")
